@@ -21,7 +21,7 @@ r3 = 7; <br />
 
 Выходные данные:  <br />
 y = результат КИХ фильтра <br />
-y = r1*x1 + r2 *x2 + r3*x3 <br />
+y = r1 * x1 + r2 * x2 + r3 * x3 <br />
 
 Описание работы. <br />
 Каждый такт входные данные с X перемещаются на переменные X1,X2,X3 для хранения. <br />
@@ -109,9 +109,9 @@ a2re = -10 <br />
 b1im = 9 <br />
 b2im = 4 <br />
 
-Результат:
-(a1re + b1im) * (a2re + b2im) = ((a1re * a2re) - (b1im * b2im)) + ((a1re * b2im) + (b1im * a2re)) = RealC + ImagC
-(-3 + 9i) * (-10 + 4i) = ((-3 * -10) - (9i * 4i)) + ((-3 * 4i) + (9i * -10)) = 30 - 36 + (-12i) + (-90i) = -6 - 102i
+Результат: <br />
+(a1re + b1im) * (a2re + b2im) = ((a1re * a2re) - (b1im * b2im)) + ((a1re * b2im) + (b1im * a2re)) = RealC + ImagC <br />
+(-3 + 9i) * (-10 + 4i) = ((-3 * -10) - (9i * 4i)) + ((-3 * 4i) + (9i * -10)) = 30 - 36 + (-12i) + (-90i) = -6 - 102i <br />
 ![image](https://github.com/rufiano/verilog/assets/122745439/2b801963-388f-4fd7-9591-f08969940818)
 
 Через 3 такта на вход приходят: <br />
@@ -120,7 +120,7 @@ a2re = -12 <br />
 b1im = 5 <br />
 b2im = 2 <br />
 
-Результат:
-(a1re + b1im) * (a2re + b2im) = ((a1re * a2re) - (b1im * b2im)) + ((a1re * b2im) + (b1im * a2re)) = RealC + ImagC
-(-8 + 5i) * (-12 + 2i) = ((-8 * -12) - (5i * 2i)) + ((-8 * 2i) + (5i * -12)) = 96 - 10 + (-16i) + (-60i) = 86 - 76i
+Результат: <br />
+(a1re + b1im) * (a2re + b2im) = ((a1re * a2re) - (b1im * b2im)) + ((a1re * b2im) + (b1im * a2re)) = RealC + ImagC <br />
+(-8 + 5i) * (-12 + 2i) = ((-8 * -12) - (5i * 2i)) + ((-8 * 2i) + (5i * -12)) = 96 - 10 + (-16i) + (-60i) = 86 - 76i <br />
 ![image](https://github.com/rufiano/verilog/assets/122745439/c92bf866-dd64-460b-b93d-c0b06adfb9a5)
